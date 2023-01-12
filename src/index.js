@@ -9,7 +9,7 @@ import store from './redux/store';
 import axios from 'axios';
 
 // axios.defaults.baseURL = 'http://localhost:3001';
-axios.defaults.baseURL = 'https://api-pokemon-production-3f95.up.railway.app/';
+axios.defaults.baseURL = 'https://api-pokemon-production-3f95.up.railway.app';
 
 ReactDOM.render(
   <React.StrictMode>
